@@ -1,0 +1,17 @@
+// Workshop 2
+// Version: Reflection                          
+// Date: 2021/06/06
+// Name:Charan Edison Arulraj
+//Seneca Student ID:143594208
+//Seneca email:cedison-arulraj@myseneca.ca
+//section:ZCC
+--------------------------------------------------
+ During this workshop I learnt many new things do impliment. I watched the recordings and used the notes from the class to do this part of the workshop.
+While doing this workshop I learnt about allocate and deallocate dynamic memory for an array, and overload functions. I did it with the help of part 1.  The function parameter is called formal parameter
+Whereas the argument is called the actual parameter and the values is passed to the function by the caller.
+
+The out parameter is used to retune multiple values.it represents the details that's is passed and which is called back.when a function is called the arguments are passed. Functions are used to perform tasks.
+
+Outputparameter is when multiple values are returned.it  is not allowed to use asynchronous methods
+Method overloading can also be done using the out parameters. Whereas an in parameter arguments are by value and the information is passed by the caller to the function.
+
