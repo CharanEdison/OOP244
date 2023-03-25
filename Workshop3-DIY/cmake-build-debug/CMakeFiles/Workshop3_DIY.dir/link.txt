@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++ -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/Workshop3_DIY.dir/calListTester.cpp.o CMakeFiles/Workshop3_DIY.dir/CalorieList.cpp.o CMakeFiles/Workshop3_DIY.dir/cstring.cpp.o CMakeFiles/Workshop3_DIY.dir/Food.cpp.o -o Workshop3_DIY 

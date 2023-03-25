@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/charanedison/Desktop/OOP244/Workshop3-DIY/Food.cpp
+iostream
+-
+iomanip
+-
+cstring.h
+/Users/charanedison/Desktop/OOP244/Workshop3-DIY/cstring.h
+Food.h
+/Users/charanedison/Desktop/OOP244/Workshop3-DIY/Food.h
+
+/Users/charanedison/Desktop/OOP244/Workshop3-DIY/Food.h
+
+/Users/charanedison/Desktop/OOP244/Workshop3-DIY/cstring.h
+

@@ -1,0 +1,71 @@
+// Workshop 3
+// Version: Reflection                          
+// Date: 2021/06/13
+// Name:Charan Edison Arulraj
+//Seneca Student ID:143594208
+//Seneca email:cedison-arulraj@myseneca.ca
+//section:ZCC
+--------------------------------------------------
+ 
+While doing this workshop I learnt to define a class type,to privatize data within the class type,to instantiate an object of class type,to access data within an object of class type through public member functions and to use standard library facilities to format data inserted into the output stream.
+
+I read the slides of week3 and the notes which were useful in doing this workshop.
+
+Starting with Member Functions,
+-------------------------------
+
+Member functions are functions with an association to an object and if its of the same class it provides the communication links between client code and the object.It also has direct access to the members of its own class,every member function  receives from the client code and passes back to them.And it is classified into 3 categories and they are as follows 
+i)Queries
+ii)Modifiers  and
+iii)special
+The queries reports the state of the object, modifiers changes the state of the object and special creates assigns and destroys the object.
+
+
+Nextly,Adding declaring, defining and  calling a member function.
+To declare a member function a prototype can be inserted into the class definition, function definition consists of 4 elements: the prefix on the function name, the empty parameter list, the const qualifier and the data members. And the scope of the member function can access other member of its same class.
+
+Code example of function Declaration (Member)
+---------------------------------------------
+struct Food {
+     int Itmnmbr;          //Item Number
+     float variety;     // variety of food
+     int qty;           // Quantity 
+     Float foodtype;   // Type of food
+
+     void display() const; //the member function
+};
+
+-----------------------------------------------
+
+What is Privacy:
+----------------
+
+Data privacy is integral to encapsulation and their members are defined using struct keyword and are exposed to the client c++ programming language lets us hide the Uber within the class by making them private as any client code can change the value of the data member. There are 2 type of accessibility labels private and public, private is accessible and  public is accessible.To make the data member private and public, the accessibility keyword can be used.(struct for public & class for private) For example: 
+
+
+struct Food {
+   Private: (class: can be used )
+     int Itmnmbr;          //Item Number
+     float variety;     // variety of food
+     int qty;           // Quantity 
+     Float foodtype;   // Type of food
+   Public:
+
+     void display() const; //the member function
+};
+
+
+The client code cannot modify the values of the private data directly, to do so set() member function can be used.
+
+
+This week I also learned about Input and output:
+________________________________________________
+ 
+In the iosstream , the standard input/ouput objects (cin and cout)these provides memberfucntions to control the conversion of characters from input stream into data types stored in the memory and vice versa by the cout.
+
+Cin:this object extracts characters from istream and converts them into specified type and stores then in the system memory. ->It is an instance of the istream.
+
+Cout:this objects copies data from the system memory into ostream and copies, coverts the data in the system memory to characters.
+
+
+These are my learning outcome of week3. 
