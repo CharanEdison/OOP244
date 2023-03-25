@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/charanedison/Desktop/OOP244/WS06/lab/TextFile.cpp
+iostream
+-
+fstream
+-
+string
+-
+TextFile.h
+/Users/charanedison/Desktop/OOP244/WS06/lab/TextFile.h
+cstring.h
+/Users/charanedison/Desktop/OOP244/WS06/lab/cstring.h
+
+/Users/charanedison/Desktop/OOP244/WS06/lab/TextFile.h
+iostream
+-
+
+/Users/charanedison/Desktop/OOP244/WS06/lab/cstring.cpp
+cstring.h
+/Users/charanedison/Desktop/OOP244/WS06/lab/cstring.h
+
+/Users/charanedison/Desktop/OOP244/WS06/lab/cstring.h
+
+/Users/charanedison/Desktop/OOP244/WS06/lab/w6p1_tester.cpp
+iostream
+-
+fstream
+-
+string
+-
+TextFile.h
+/Users/charanedison/Desktop/OOP244/WS06/lab/TextFile.h
+

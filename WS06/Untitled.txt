@@ -1,0 +1,28 @@
+During this workshop and ms2 I learned many things including  function hierarchy , custom I/o , Learned how to shadow a base class member function that is defined in a base class , to utilize the I/o operators with classes and to inherit a derived class from the base, when I learned about the function hierarchy - the object types determines the member function, and about the derived class and the base class, the base class is also called as super class and there parent class and the derived class  is also called as the sub class, hierarchies class or the child class.
+
+Definition of a derived class:
+
+
+class Derived : access Base {
+
+    // ...
+
+};
+
+Then about the access, where I learned about the modifiers granting access to the members of private ,protected and public class.
+
+
+Private bars all access, protected limits access only to the derived  class
+ And public has unlimited access.
+
+Shadowing:
+
+The member function of a derived class shadows the base class member function with the same .
+
+Base::identifier(arguments)
+
+Constructors: it construct the base class portion the complete object,
+* it allocates memory for the instance variables in the order of their declaration and executes the base class constructor.
+*and it construct there derived class portion of the object that allocates memory for the instance variables in the order of their declaration and execute the derived class constructor.
+
+ Then about the I/O stream:

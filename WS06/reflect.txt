@@ -1,0 +1,76 @@
+// Workshop 6
+// Version: Reflection                          
+// Date: 2021/07/11
+// Name:Charan Edison Arulraj
+//Seneca Student ID:143594208
+//Seneca email:cedison-arulraj@myseneca.ca
+//section:ZCC
+--------------------------------------------------
+
+While doing this workshop I learned to define and create copy constructor, to define and create copy Assignment, to prevent copying and assignment in a class,overload insertion operator, printing using ostream, over load extraction operator and printing class using stream, to Do a simple file IO using ifstream and ofstream, and by using the c++ string class to extract some unknown characters from the input,
+
+With the help of weekly material and the Wikipedia link (rule of three) I did this workshop,
+
+In the rule of 3 it should define 3 special member functions, it is as follows:
+Destructor 
+Copy constructor and 
+The copy assignment operator 
+
+If we did not declare  one of the special member functions it will implicitly emolument the following semantics.
+i)By calling the destructor of all the object class type members,
+ii)In copy constructor, it constructs all the object's members from the nearby members of the copy constructor's arguments. By calling the copy constructor of the class type and does a plain assignment of all the non class type data members.
+iii)with the copy assignment operator, it assigns all the object's members from the nearby  members of This operator, and calls the copy assignment operators of the object's class-type members and does a plain assignment all the non class type data members.
+
+Deep copies and assignments: in this each will allocate memory for the resource and copy the contents of the source to the destination memory .
+There are 2 special memberz= functions that manages the allocation and deallocations associated withe deep copying and  the deep copy assigning, it is as follows:
+1)the copy constructor
+2)the copy assignment operator
+
+Starting 
+
+With the copy constructor, it creates copies and returns an object by the value from a function. 
+Declaration of copy constructor:
+---------------------------------
+Type(const Type&);
+
+
+And 
+The copy assignment operator, it contains the the logic for copying the data from a previous object to an existing object.
+
+Declaration of copy assignment operator:
+----------------------------------------
+Type& operator=(const Type&);
+
+Example of class and copy assignment operator
+----------------------------------------------
+class food {
+     int its;
+     float* nameoffood;
+     int qty;
+ public:
+     food();
+     food(int, const float*, int);
+     food(const food&);
+     food& operator=(const food&); 
+     ~food();
+     void display() const;
+ };
+
+
+Overall with this, 
+A class with resource requires some custom definition of  copy constructor, copy assignment operator and destructor and initializing pass by value, and return by value client code calls the copy constructor.
+
+Iosstream classa are overloaded the extraction and insertion operators as helper to those of its own class,
+The input file object is the instance of an ifstream class,
+The output file object is an instance of an ofstream class
+
+These are my learnings of this weeks while doing the lab.
+
+
+
+
+
+
+
+Reference:i have used the weekly material and Wikipedia.
+https://en.wikipedia.org/wiki/Rule_of_three_(C%2B%2B_programming)
