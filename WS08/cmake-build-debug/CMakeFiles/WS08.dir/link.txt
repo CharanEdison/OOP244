@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++ -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/WS08.dir/lab/Line.cpp.o CMakeFiles/WS08.dir/lab/main.cpp.o CMakeFiles/WS08.dir/lab/Rectangle.cpp.o CMakeFiles/WS08.dir/lab/Shape.cpp.o CMakeFiles/WS08.dir/LblShape.cpp.o -o WS08 

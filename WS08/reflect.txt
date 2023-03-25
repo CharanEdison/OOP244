@@ -1,0 +1,71 @@
+// Workshop 8
+// Version: Reflection                          
+// Date: 2021/07/25
+// Name:Charan Edison Arulraj
+//Seneca Student ID:143594208
+//Seneca email:cedison-arulraj@myseneca.ca
+//section:ZCC
+--------------------------------------------------
+
+
+Starting with the virtual functions-
+
+->It is a member functions which are declared within the base class and are re defined. And can be overridden in the derived class.
+
+Function binding-
+---------------- 
+It is a process of converting identifiers into addresses. And the compiler binds the function to call 
+a function definition using the object type.
+
+There are 2 types of:
+1)early binding
+2)dynamic dispatch
+
+Early binding Is based on the static type of the object and the dynamic dispatch is based on the dynamic type of the object.
+
+
+Polymorphic objects:
+--------------------
+
+It is an object that can change its dynamic type all around its lifetime.
+The static type of polymorphic objects identifies the hierarchy of types to which the object belongs , and the dynamic type of the polymorphic objects identifies the rue for interpreting the bit string in region of memory which are currently allocated to the object.
+
+
+It static type of its are specified through the following:
+
+1) a pointer declaration
+2)a receive by address parameter
+3)a receive by reference parameter
+
+
+
+
+
+Reusability and flexibility:
+
+It reduces size of the code.
+
+
+
+And then the pure virtual function, it is the principal component of an abstract class. Pure refers to the lack of any executional details.
+
+
+
+
+
+->Abstract class is a class that contains or inherit a pure virtual function .
+->interface is an abstract base class with no data members.
+
+
+
+
+
+
+
+
+These are my learnings while doing the workshop and project milestone.
+
+
+
+
+
