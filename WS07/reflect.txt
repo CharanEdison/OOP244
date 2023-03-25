@@ -1,0 +1,120 @@
+// Workshop 7
+// Version: Reflection                          
+// Date: 2021/07/18
+// Name:Charan Edison Arulraj
+//Seneca Student ID:143594208
+//Seneca email:cedison-arulraj@myseneca.ca
+//section:ZCC
+--------------------------------------------------
+
+While doing this workshop I learned how to inherit a derived class from a base class, then to shadow a base class member function with a derived class member function, to access a shadowed member function that is defined in a base class,  and to utilize custom input/output operators with these classes.
+
+Starting with the derived classes
+__________________________________
+
+In derived class I learnt about the hierarchies in relation with biology, and inheritance in the hierarchies, it is a hierarchical relationship between the classes.
+
+Terminology: the correspondence of 2 classes, the inheritance relationship is identified by the hierarchy.
+
+Derived and Base Classes: the child is called as the derived class and the parent is called as the base class in the relationship, the hybrid course class is derived class go the course base class and the derived class inherits the whole structure of its base class.
+
+Example:
+________
+
+Base class.      Animal
+   ^               ^
+   |               |
+
+
+Derived class    chordata 
+
+The base class cannot inherit the methods and properties of the derived class whereas derived class can inherit properties and methods of the base class
+
+Syntax of the base class:
+Class base_classname{
+
+
+};
+
+Syntax of the derived class :
+Class derived_classname :
+access_mode base_class_name { 
+
+};
+
+
+Base class :super/parent class
+Derived class :subclass/heir/child class
+
+
+
+Access:
+_______
+
+In c++, it supports 3 modifiers for granting the access to the member of the class, which are as follows:
+
+i)Private,which bars all the access
+ii)protected -it limits access to members of a derived class.
+iii)public-it grants unlimited access 
+
+
+
+->to limit the access to the derived class, the keyword protected can be used.
+->by keeping a data member private and accessing them through a protected query is a good design.
+
+
+
+Input and Output Operators
+__________________________
+
+STREAM LIBRARY OVERVIEW
+________________________
+
+It is based on the input/ output library which supports the main c++  language
+Which overloads 2 operators for extracting values From input stream and inserting them into the output stream.
+
+Extraction from the input stream(>>)
+Insertion into an output stream(<<)
+
+
+->the iosstream sys header file contains the definition for streaming from/to the std devices. And also predefines the std I/o objects 
+
+-->#include <iostream> -- it includes definitions for the following:
+i)std::istream 
+ii) std::ostream
+
+File I/O:
+_________
+
+#include <fstream> 
+
+The fstream system header file includes the definitions for streaming from and to the files and includes the definition as follows:
+
+--std::ifstream 
+--std::ofstream 
+--std::fstream
+
+Header files:
+Guidelines followed are as follows :
+It includes system headers before the custom headers
+Insert namespace directives after all the header files and 
+Resolves the scope of any identifier in a header file at the identifier itself .
+
+
+->the input file object is an instance of ifstream class and the output file object is an instance of the ofstream class.
+
+
+
+
+These are my learnings of the week.
+
+
+
+
+
+
+
+source:
+https://ict.senecacollege.ca/~oop244/pages/content/custo_p.html
+
+https://www.geeksforgeeks.org/difference-between-base-class-and-derived-class-in-c/
