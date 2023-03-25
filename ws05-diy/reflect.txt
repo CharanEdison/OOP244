@@ -1,0 +1,67 @@
+// Workshop 5
+// Version: Reflection                          
+// Date: 2021/06/30
+// Name:Charan Edison Arulraj
+//Seneca Student ID:143594208
+//Seneca email:cedison-arulraj@myseneca.ca
+//section:ZCC
+--------------------------------------------------
+ 
+While doing this workshop I learned to define and create binary member operator, to define and create a type conversion operator, to define and a create unary member operator, to define and create a helper binary operator between classes, to define and create a helper operator between a primitive type and a class.
+
+With the help of notes from the weekly material,
+
+Starting with OPERATIONS:
+_________________________
+
+--Operator (keyword) identifies an overloaded operation. It is followed by the operator symbol, the left operand of any member operator is the current object.
+
+Candidates For Overloading:
+___________________________
+
+In this c++ allows few operators to overload such as binary(which consists of + - * / %), assignment operators ,unary(like ++ -- + -), logical operators and insertion extraction (<<  >>).
+The operators such as scope resolution operator,  member selection operator, the member selection through a pointer to member operator, and the conditional operator will not overload as c++ does not allow them. And C++ does not let us introduce or define new operators.
+-->The operators are classified by the number of operands they take, unary(one), binary(2), and ternary(3).
+
+Overloading a Member Operator:
+_______________________________
+-->The signature of an overloaded member operator consists of the operator keyword, operation symbol, type of its right operand, and the const status of the operation.
+
+TYPE CONVERSION OPERATORS:
+__________________________
+This is used to define implicit conversions to different types.
+
+
+Bool operator: this operator returns true if the object is valid else it will be false,1(true), and 0(false).and also possible to convert implicitly the data type integers or floating-point values to bool type.
+
+CAST OPERATOR: it is a special operator which forces one datatype to be converted to another, it is unary and has the condition as other unary operators.
+
+Secondly with the Helper Functions:
+___________________________________
+
+Free helpers: free helper function is a function that obtains all the information from the public member function for the class which it supports. It does not require access to the private members of its class.
+-->In a helper function, it compares two objects of the same classic returns true if its objects are same else it is false.
+
+
+The Cost of Upgrading Freedom:
+_______________________________
+
+The free helper function uses public queries to access inaccessible information. when data is added to the member of the class we should add a query to access its value. When we add data members, the class definition grows with new queries. This is called class bloat. 
+
+HELPER OPERATORS:
+_________________
+
+These are global functions that overload operators and  Candidates for them are operators that do not change the values of their operands.
+
+FRIENDSHIP:
+___________
+This allows the helper function to access the private members of a class, it allows by friendship status where a class lets a helper function to access any private members and friendship minimizes class bloat. 
+
+To grant the helper function the friendship status, we have declared the function a friend and place its declaration inside the class definition.  
+The declaration takes the form of
+friend Type identifier(type [, type, ...]);
+where Type is the return type of the function and identifier is the function's name. 
+ And friendly helper functions reduce bloating at the cost of piercing encapsulation.
+
+
+These are my learnings for week 5.

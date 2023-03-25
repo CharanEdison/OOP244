@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/charanedison/Desktop/OOP244/Workshop5/ws05-diy/Mark.cpp
+iostream
+-
+Mark.h
+/Users/charanedison/Desktop/OOP244/Workshop5/ws05-diy/Mark.h
+
+/Users/charanedison/Desktop/OOP244/Workshop5/ws05-diy/Mark.h
+iostream
+-
+
+/Users/charanedison/Desktop/OOP244/Workshop5/ws05-diy/markMain.cpp
+iostream
+-
+Mark.h
+/Users/charanedison/Desktop/OOP244/Workshop5/ws05-diy/Mark.h
+
