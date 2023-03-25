@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/charanedison/Desktop/OOP244/Workshop4/Canister.cpp
+iostream
+-
+iomanip
+-
+Canister.h
+/Users/charanedison/Desktop/OOP244/Workshop4/Canister.h
+cstring.h
+/Users/charanedison/Desktop/OOP244/Workshop4/cstring.h
+
+/Users/charanedison/Desktop/OOP244/Workshop4/Canister.h
+iostream
+-
+
+/Users/charanedison/Desktop/OOP244/Workshop4/cstring.h
+
